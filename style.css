@@ -1,0 +1,96 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0c994e; 
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #077a3d;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+         
+        h2{
+            color: #077a3d;
+        }
+
+
+        h1{
+            color: #f8f8f8;
+        }
+
+        .offer-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .offer {
+            flex: 1 1 250px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #fafafa;
+        }
+
+        .offer h3 {
+            margin-top: 0;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: #888;
+        }
+
+        .new-price {
+            color: #d00000;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+    .buy-btn {
+        background-color: #00843D;
+        color: white;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: 0.3s;
+        size: 30px;
+    }
+
+    .buy-btn:hover {
+        background-color: #00b34a;
+    }
